@@ -2,7 +2,7 @@
 
 @font-face {
     font-family:'Idroid';
-    src: url(fontes/idroid.otf), format('opentype');
+    src: url(fontes/idroid.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -15,7 +15,7 @@ body {
 header {
     background-image: linear-gradient(to bottom , #41D976, #1B5936);
     border-radius: auto;
-    width: auto;
+    width: 100%;
     padding: 10px;
     margin: auto;
 }
@@ -44,12 +44,20 @@ nav > a:hover {
 main {
     text-align: center;
     background-color: white;
-    min-width: 320px;
+    min-width: 324px;
     max-width: 1000px;
     padding: 10px;
     margin: auto;
     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.274);
 }
+main img {
+    width: 100%;
+}
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}    
 
 h1#secundario {
     font-family: 'idroid';
@@ -94,9 +102,9 @@ iframe {
 section#extra {
     background-color: #82d9a060;
     border-radius: 15px;
-    width: 95%;
-    padding: 8px;
-    margin: 18px;
+    width: auto;
+    padding: 6px;
+    margin: 11px;
     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.205);
 }
 
@@ -105,9 +113,9 @@ section#extra > h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     border-radius: 10px 10px 0px 0px;
-    width: 100%;
+    width: auto;
     padding: 1%;
-    margin: -10px;
+    margin: -7px;
 }
 
 ul {
