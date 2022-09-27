@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+header {
+    background-color: black;
+    text-align: center;
+   
+
+}
+header > h1 {
+    color: white;
+}
+header > a {
+    color: white;
+    text-decoration: none;
+}
+body {
+    font-family: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
