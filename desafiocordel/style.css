@@ -4,24 +4,81 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+body {
+    background-color: white;
+    font-size: 3vw;
+    text-align: justify;
+}
+
 header {
     background-color: black;
     text-align: center;
+    font-size: larger;
+    padding: 8vh;
    
-
 }
+
 header > h1 {
     color: white;
     font-family: 'Passion One';
+    font-size: 10vw;
 }
-header > a {
+header > p {
     color: white;
-    text-decoration: none;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+header > p > a {
+    text-decoration: none;
+    color: white;
+}
+
 
 section {
     font-family: 'Sriracha';
+
 }
+.especial {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.247);
+    
+}
+
+section > p {
+    margin: 30px;
+    margin-bottom: 55px;
+}
+
+section#img01 {
+    margin: auto;
+    background-image: url(imagem/fundo01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+section#img01 > p {
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+section#img02 {
+    margin: auto;
+    background-image: url(imagem/fundo02.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}    
+
 
 
 
@@ -50,7 +107,9 @@ section {
 
 
 footer {
-    text-align: center;
-    color: white;
     background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin: 0px;
 }
