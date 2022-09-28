@@ -19,15 +19,15 @@ body {
 header {
     background-color: black;
     text-align: center;
-    font-size: larger;
-    padding: 8vh;
-   
+    font-size: bold;
+    padding: 7vh;
 }
 
 header > h1 {
     color: white;
     font-family: 'Passion One';
-    font-size: 10vw;
+    font-weight: bold;
+    font-size: 9vw;
 }
 header > p {
     color: white;
@@ -43,20 +43,22 @@ header > p > a {
 
 section {
     font-family: 'Sriracha';
+    line-height: 2em;
+    margin: 30px;
+    padding-top: 11vh;
+    padding-bottom: 11vh;
+    font-size: 1.2em;
 
 }
 .especial {
     color: white;
     background-color: rgba(0, 0, 0, 0.247);
-    
 }
 
-section > p {
-    margin: 30px;
-    margin-bottom: 55px;
-}
+
 
 section#img01 {
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.185);
     margin: auto;
     background-image: url(imagem/fundo01.jpg);
     background-position: center center;
@@ -66,10 +68,13 @@ section#img01 {
    
 }
 section#img01 > p {
+    margin: 30px;
     background-color: rgba(0, 0, 0, 0.24);
+    margin-right: 21%;
 }
 
 section#img02 {
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.185);
     margin: auto;
     background-image: url(imagem/fundo02.png);
     background-position: center center;
@@ -78,6 +83,11 @@ section#img02 {
     background-attachment: fixed;
     
 }    
+section#img02 > p {
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.24);
+    margin-right: 21%;
+}
 
 
 
