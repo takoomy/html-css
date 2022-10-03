@@ -13,11 +13,18 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         thead, tfoot {
             background-color: rgb(77, 76, 76);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
         }
 
         td, th {
